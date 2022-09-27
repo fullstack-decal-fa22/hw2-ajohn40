@@ -32,6 +32,7 @@ h2 {
 }
 
 .threevert {
+    height: 33.3%
 }
 
 .threehoriz {
@@ -75,15 +76,15 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
-  background-color: lightblue;
+.light-blue {
+  background-color: #51ADDA;
 }
 
 .purple {
   background-color: purple;
 }
 
-.white {
+#white {
   background-color: #fff;
 }
 
@@ -91,18 +92,32 @@ h2 {
   background-color: #000;
 }
 
+.red{
+    background-color: red;
+}
+
 /* BEGIN QUESTION 2 */
 
+
 .thailand-red {
-  /* TODO */
+ background-color: #B5002D;
+ width: 500px;
+ height: 50px;
 }
 
 .thailand-white {
   /* TODO */
+ background-color: #fff;
+ width: 500px;
+ height: 50px;
+
 }
 
 .thailand-blue {
   /* TODO */
+  background-color: #2E2A4C;
+  wdith: 500px;
+  height: 100px;
 }
 
 /* END QUESTION 2 */
@@ -130,6 +145,9 @@ h2 {
 
 .mexico-img {
   /* TODO */
+  max-height: 50%;
+  max-width: 45%;
+  align-self: center;
 }
 
 .mexico-red {
@@ -162,4 +180,14 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+}
+
+.label{
+    color: red;
+}
+
+.label:hover{
+    font-size: 30px;
+    font-weight: 30px;
+    color: green;
 }
